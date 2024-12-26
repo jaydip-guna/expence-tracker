@@ -26,7 +26,7 @@ function getDataPoints(filteredTransactions) {
 }
 
 function MyChart() {
-  const { filteredTransactions, Filters } = useFilters();
+  const { filteredTransactions, Filters } = useFiltersg();
 
   const dataPoints = getDataPoints(filteredTransactions);
 
